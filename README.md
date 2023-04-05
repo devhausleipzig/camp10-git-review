@@ -57,3 +57,21 @@ will take you to the branch
 > Note: To make a new branch and immediately switch to it you could also use
 
 `git checkout -b <name of the new branch>`
+
+# Merging branch into another branch
+
+1. git checkout main (or to branch that you want something to be merged in)
+
+2. git pull (always update from your remote)
+
+3. git checkout branch (the branch that you want to merge)
+
+4. git merge main (merge the updated main or the updated branch into your branch: this process is called reverse merge)
+
+5. resolve the conflicts, and when everything is good. add, commit, push the branch
+
+6. switch back to the branch or main
+
+7. git merge branch
+
+8. see the merge is working in your code editor, and if satisfied git push
