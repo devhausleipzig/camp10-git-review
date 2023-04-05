@@ -53,3 +53,7 @@ by using `-a` I can also look at all the branches that are currently remote
 ##### git checkout <name of the branch>
 
 will take you to the branch
+
+> Note: To make a new branch and immediately switch to it you could also use
+
+`git checkout -b <name of the new branch>`
