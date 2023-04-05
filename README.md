@@ -23,3 +23,17 @@ This gives you the information regarding the current branch that you are current
 ##### git add
 
 It adds the modified files and untracked files to the staging area (This is still in your local machine).
+
+##### git commit
+
+git commit takes the files from the staging area to local repo, and commit is like taking a snapshot
+
+use `-m` followed by a `commit message` in "" to avoid entering a text editor
+
+##### git push
+
+git push will push my local commit to the remote repo
+
+here: origin always refers to the branch on github(online)
+
+local refers to your local machine or computer
