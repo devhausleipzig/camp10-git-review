@@ -38,6 +38,10 @@ here: origin always refers to the branch on github(online)
 
 local refers to your local machine or computer
 
+> Note: When you push a new branch using git push it has no set upstream to track
+
+so use `git push --set-upstream origin <name of the branch>`
+
 ##### git branch <branch name>
 
 ##### git branch
