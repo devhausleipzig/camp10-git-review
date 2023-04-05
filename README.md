@@ -37,3 +37,15 @@ git push will push my local commit to the remote repo
 here: origin always refers to the branch on github(online)
 
 local refers to your local machine or computer
+
+##### git branch <branch name>
+
+##### git branch
+
+gives me the list of all the branches in my local
+
+by using `-a` I can also look at all the branches that are currently remote
+
+##### git checkout <name of the branch>
+
+will take you to the branch
